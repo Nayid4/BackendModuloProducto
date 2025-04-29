@@ -24,7 +24,7 @@ def create_product():
         db.session.rollback()
         return jsonify({'error': str(e)}), HTTPStatus.BAD_REQUEST
 
-@bp.route('/alerts', methods=['GET'])
+@bp.route('/products/alerts', methods=['GET'])
 def get_alerts():
     result = GetAlertsQuery().handle()
     return jsonify(result), HTTPStatus.OK
