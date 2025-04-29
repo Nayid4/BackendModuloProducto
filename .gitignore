@@ -1,0 +1,45 @@
+
+---
+
+### 🛑 `.gitignore`
+
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.egg-info/
+.eggs/
+.cache/
+.pytest_cache/
+dist/
+build/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+Pipfile.lock
+poetry.lock
+
+# SQLite database
+*.sqlite3
+*.db
+*.db-journal
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Others
+*.bak
+*.swp
+.DS_Store
